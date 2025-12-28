@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Premier Schools Exhibition</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="header">
+  <img src="assets/logos/l1.jpg" alt="Premier Schools Exhibition Logo" class="header__logo">
+  <button class="header__cta">Register Now</button>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero" role="region" aria-roledescription="carousel" aria-label="Hero highlights">
+  <div class="hero__content">
+    <h1>Discover Gurugram’s <span>Top 30+ Schools</span></h1>
+    <p>All in one place</p>
+
+    <div class="hero__pill">
+      <strong>Apparel House</strong>, Sec 44, Gurugram<br>
+      2–3 December 2025 | 10AM – 6PM
+    </div>
+  </div>
+
+  <div class="hero__slider" aria-live="polite">
+    <div class="hero__track">
+      <figure class="hero__slide"><img src="assets/images/hero-1.jpg" alt="Students walking"></figure>
+      <figure class="hero__slide"><img src="assets/images/hero-2.jpg" alt="Children learning"></figure>
+      <figure class="hero__slide"><img src="assets/images/hero-3.jpg" alt="Students playing"></figure>
+      <figure class="hero__slide"><img src="assets/images/hero-4.jpg" alt="Happy students"></figure>
+    </div>
+  </div>
+
+  <!-- FORM (VALIDATION READY) -->
+<form class="form" novalidate>
+  <h2>Enquire Now</h2>
+
+  <label for="parentName">
+    Parent’s Name
+  </label>
+  <input
+    type="text"
+    id="parentName"
+    name="parentName"
+    required
+    aria-invalid="false"
+  />
+  <span class="field-error" aria-live="assertive"></span>
+
+  <label for="phone">
+    Phone Number
+  </label>
+  <input
+    type="tel"
+    id="phone"
+    name="phone"
+    required
+    aria-invalid="false"
+  />
+  <span class="field-error" aria-live="assertive"></span>
+
+  <label for="grade">
+    Grade
+  </label>
+  <select
+    id="grade"
+    name="grade"
+    required
+    aria-invalid="false"
+  >
+    <option value="">Select</option>
+    <option>Pre-School</option>
+    <option>1–5</option>
+    <option>6–8</option>
+    <option>9–12</option>
+  </select>
+  <span class="field-error" aria-live="assertive"></span>
+
+  <button type="submit">Submit →</button>
+</form>
+
+
+    <p class="form__error" role="alert" aria-live="assertive"></p>
+  </form>
+</section>
+
+<!-- LOGOS -->
+<section class="logos" aria-label="Participating schools">
+  <div class="logos__track">
+    <img src="assets/logos/l1.jpg" alt="School logo">
+    <img src="assets/logos/l2.jpg" alt="School logo">
+    <img src="assets/logos/l3.jpg" alt="School logo">
+    <img src="assets/logos/l4.jpg" alt="School logo">
+  </div>
+</section>
+
+<!-- CHOOSE SCHOOL -->
+<section class="choose" aria-label="Choose the school">
+  <h2>Choose the School That Fits You Best</h2>
+  <div class="choose__track">
+    <article class="choose__card">Pre-Schools & Early Learning</article>
+    <article class="choose__card">K-12 CBSE Schools</article>
+    <article class="choose__card">Heritage to New-Age Schools</article>
+    <article class="choose__card">International Curriculum Schools</article>
+  </div>
+</section>
+
+<!-- EXHIBITION -->
+<section class="exhibition" role="region" aria-roledescription="carousel">
+  <h2>What Makes This Exhibition a Must-Visit</h2>
+  <div class="exhibition__track">
+    <article class="exhibition__card">Interact with School Heads</article>
+    <article class="exhibition__card">Compare Curriculum</article>
+    <article class="exhibition__card">Fee Structures & Offers</article>
+    <article class="exhibition__card">Explore Infrastructure</article>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  © 2025 Premier Schools Exhibition
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
